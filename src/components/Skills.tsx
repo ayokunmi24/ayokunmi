@@ -1,0 +1,56 @@
+import { Badge } from "@/components/ui/badge";
+
+const Skills = () => {
+  const skillCategories = [
+    {
+      title: "Frontend",
+      skills: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Vue.js", "Angular"]
+    },
+    {
+      title: "Backend",
+      skills: ["Node.js", "Python", "Express", "Django", "PostgreSQL", "MongoDB"]
+    },
+    {
+      title: "Tools & Others",
+      skills: ["Git", "Docker", "AWS", "Figma", "Jest", "Webpack"]
+    }
+  ];
+
+  return (
+    <section id="skills" className="py-20 px-4 gradient-subtle">
+      <div className="max-w-6xl mx-auto">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 gradient-primary bg-clip-text text-transparent">
+            Skills & Technologies
+          </h2>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            Here are the technologies I work with to bring ideas to life
+          </p>
+        </div>
+
+        <div className="grid md:grid-cols-3 gap-8">
+          {skillCategories.map((category, index) => (
+            <div key={index} className="space-y-6">
+              <h3 className="text-2xl font-bold text-accent text-center">
+                {category.title}
+              </h3>
+              <div className="flex flex-wrap gap-3 justify-center">
+                {category.skills.map((skill, skillIndex) => (
+                  <Badge 
+                    key={skillIndex}
+                    variant="outline"
+                    className="text-sm px-4 py-2 transition-bounce hover:scale-110 hover:shadow-card hover:bg-accent/10 border-accent/20"
+                  >
+                    {skill}
+                  </Badge>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Skills;
