@@ -5,18 +5,18 @@ const About = () => {
   const highlights = [
     {
       icon: <Code2 className="w-8 h-8" />,
-      title: "Clean Code",
-      description: "Writing maintainable, scalable code that stands the test of time."
+      title: "Co-creating Solutions",
+      description: "I involve stakeholders early and often to understand business & user needs, ideate solutions, and gather feedback."
     },
     {
       icon: <Palette className="w-8 h-8" />,
-      title: "Design Focus",
-      description: "Creating beautiful, intuitive interfaces that users love."
+      title: "Always Asking Why",
+      description: "I approach every project with curiosity to uncover hidden insights and make new discoveries."
     },
     {
       icon: <Zap className="w-8 h-8" />,
-      title: "Performance",
-      description: "Optimizing for speed and efficiency across all platforms."
+      title: "Creator. Partner. Collaborator",
+      description: "I can spearhead, support or polish your project or product at any stage it needs it."
     }
   ];
 
@@ -28,8 +28,7 @@ const About = () => {
             About Me
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            I'm a passionate developer with 5+ years of experience building web applications. 
-            I love turning complex problems into simple, elegant solutions.
+            I'm a passionate Product Manager with extensive experience working with cross-functional teams to deliver products for startups and multi-national brands.
           </p>
         </div>
 
@@ -39,13 +38,10 @@ const About = () => {
               My Journey
             </h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Started as a curious student learning HTML, now building scalable applications 
-              that serve thousands of users. Every project teaches me something new, and I'm 
-              constantly exploring emerging technologies.
+              I have spent the last years working with cross-functional teams to deliver products for startups and multi-national brands like Leadway, Qore, Metro Africa Xpress (MAX), leveraging qualitative research and product strategy to drive growth.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              When I'm not coding, you'll find me reading tech blogs, contributing to open source, 
-              or exploring the latest frameworks and tools that push the web forward.
+              Outside my product domain, I am also studying the underpinnings of Business Management, Cloud and Emerging technologies like AI and Blockchain out of a sheer curiosity.
             </p>
           </div>
 

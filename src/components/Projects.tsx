@@ -6,28 +6,52 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with payment integration, admin dashboard, and real-time inventory management.",
+      title: "Hydra API Gateway",
+      description: "A consolidated API gateway that leverages integration to commercial banks to carry out financial transactions.",
+      image: "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=600&h=400&fit=crop",
+      technologies: ["SaaS", "Enterprise Software", "B2B", "Fintech"],
+      liveUrl: "#",
+      githubUrl: "#"
+    },
+    {
+      title: "AI Chatbot & Virtual Reality (Luna)",
+      description: "Luna is a conversational chatbot that interacts with customers on behalf of a customer success associate.",
+      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop",
+      technologies: ["AI/ML", "Virtual Reality", "SaaS", "Enterprise Software"],
+      liveUrl: "#",
+      githubUrl: "#"
+    },
+    {
+      title: "Credit Appraisal System (Recova)",
+      description: "A digital lending solution that automates the entire credit process from application capture to disbursement.",
+      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&h=400&fit=crop",
+      technologies: ["Fintech", "Loan Automation", "B2B", "Enterprise Software"],
+      liveUrl: "#",
+      githubUrl: "#"
+    },
+    {
+      title: "Leadway Health Management System",
+      description: "Comprehensive West African Third-Party Administrator for health care needs of insurers and employer groups.",
+      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&h=400&fit=crop",
+      technologies: ["Health", "Insurance", "Enterprise Software", "B2C"],
+      liveUrl: "#",
+      githubUrl: "#"
+    },
+    {
+      title: "Agency Banking Solution (Cluster)",
+      description: "Agent banking solution that enables agents perform banking services via mobile and back-office web applications.",
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
-      technologies: ["React", "Node.js", "PostgreSQL", "Stripe"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/example/project"
+      technologies: ["Agency Banking", "POS", "Fintech", "B2B"],
+      liveUrl: "#",
+      githubUrl: "#"
     },
     {
-      title: "Task Management App",
-      description: "Collaborative task management tool with real-time updates, drag-and-drop functionality, and team analytics.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-      technologies: ["Vue.js", "Express", "MongoDB", "Socket.io"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/example/project"
-    },
-    {
-      title: "Weather Dashboard",
-      description: "Interactive weather dashboard with forecasts, maps, and historical data visualization using external APIs.",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
-      technologies: ["React", "D3.js", "OpenWeather API", "Chart.js"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/example/project"
+      title: "Leadway SuperApp Design",
+      description: "Comprehensive SuperApp design for Nigerian financial services conglomerate spanning multiple business areas.",
+      image: "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=600&h=400&fit=crop",
+      technologies: ["Insurance", "SaaS", "B2C", "Design"],
+      liveUrl: "#",
+      githubUrl: "#"
     }
   ];
 

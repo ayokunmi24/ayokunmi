@@ -27,16 +27,16 @@ const Hero = () => {
             Hello, I'm
           </p>
           <h1 className="text-6xl md:text-8xl font-bold mb-4 gradient-primary bg-clip-text text-transparent">
-            Alex Johnson
+            Ayokunmi
           </h1>
           <p className="text-2xl md:text-3xl font-semibold text-accent mb-6">
-            Full Stack Developer
+            Product Manager
           </p>
         </div>
 
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed">
-          Crafting beautiful, functional web experiences with modern technologies. 
-          Passionate about clean code and innovative solutions.
+          I work with cross-functional teams to deliver products for startups and multi-national brands, 
+          leveraging qualitative research and product strategy to drive growth and create impactful user experiences.
         </p>
 
         {/* CTA Buttons */}
