@@ -4,15 +4,15 @@ const Skills = () => {
   const skillCategories = [
     {
       title: "Core Competencies",
-      skills: ["Agile Methodologies", "Product Ideation", "Sprint Planning", "Wire-framing", "UX Design", "Market Research", "Product Strategy", "Risk Management"]
+      skills: ["Product Discovery", "Product Design", "User Experience", "Agile(SCRUM)", "Business Systems Analysis", "Database Modeling", "AI/ML Product Strategy", "Data Analysis", "Product Requirement Documentation", "Machine Learning"]
     },
     {
       title: "Programming Languages",
-      skills: ["Python", "SQL", "JavaScript", "CSS", "WordPress"]
+      skills: ["Python", "SQL", "R", "JavaScript", "HTML"]
     },
     {
       title: "Technologies & Tools",
-      skills: ["JIRA", "Clickup", "Confluence", "Postman", "Figma", "MIRO", "Tableau", "PowerBI", "AWS", "Google Analytics"]
+      skills: ["Google Analytics", "Jira", "PowerBI", "Excel", "Figma", "Visio", "Tableau", "PowerPoint", "MS Project", "Confluence", "Linux"]
     }
   ];
 

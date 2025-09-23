@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
-import heroBackground from "@/assets/hero-background.jpg";
+import ayokunmiPhoto from "@/assets/ayokunmi-photo.jpg";
 
 const Hero = () => {
   return (
@@ -19,7 +19,7 @@ const Hero = () => {
         <div className="relative w-32 h-32 mx-auto mb-8">
           <div className="w-full h-full rounded-full overflow-hidden border-2 border-border">
             <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+              src={ayokunmiPhoto}
               alt="Ayokunmi Sodamola"
               className="w-full h-full object-cover"
             />
@@ -43,7 +43,7 @@ const Hero = () => {
         </p>
         
         <p className="text-base text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed">
-          I work with cross-functional teams to deliver products for startups and multi-national brands, 
+          Based in Waco, Texas | I work with cross-functional teams to deliver products for startups and multi-national brands, 
           leveraging qualitative research and product strategy to drive growth and create impactful user experiences.
         </p>
 
@@ -93,7 +93,7 @@ const Hero = () => {
             <Github className="w-5 h-5" />
           </a>
           <a 
-            href="https://linkedin.com" 
+            href="https://www.linkedin.com/in/ayokunmis" 
             className="text-muted-foreground hover:text-foreground transition-colors"
             target="_blank"
             rel="noopener noreferrer"
@@ -113,7 +113,7 @@ const Hero = () => {
             </svg>
           </a>
           <a 
-            href="mailto:ayokunmi@example.com" 
+            href="mailto:ayokunmi84@gmail.com" 
             className="text-muted-foreground hover:text-foreground transition-colors"
             aria-label="Email"
           >
