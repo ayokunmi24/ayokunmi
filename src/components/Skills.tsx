@@ -17,13 +17,13 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="py-20 px-4 gradient-subtle">
+    <section id="skills" className="py-20 px-4 bg-background">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 gradient-primary bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
             Skills & Technologies
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Here are the technologies I work with to bring ideas to life
           </p>
         </div>
@@ -31,7 +31,7 @@ const Skills = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {skillCategories.map((category, index) => (
             <div key={index} className="space-y-6">
-              <h3 className="text-2xl font-bold text-gray-800 dark:text-gray-200 text-center">
+              <h3 className="text-2xl font-bold text-white text-center">
                 {category.title}
               </h3>
               <div className="flex flex-wrap gap-3 justify-center">
@@ -39,7 +39,7 @@ const Skills = () => {
                   <Badge 
                     key={skillIndex}
                     variant="outline"
-                    className="text-sm px-4 py-2 transition-bounce hover:scale-110 hover:shadow-card hover:bg-gray-100 dark:hover:bg-gray-800 border-gray-300 dark:border-gray-600 text-gray-800 dark:text-gray-200"
+                    className="text-sm px-4 py-2 transition-bounce hover:scale-110 hover:shadow-card hover:bg-gray-800 border-gray-600 text-gray-200"
                   >
                     {skill}
                   </Badge>

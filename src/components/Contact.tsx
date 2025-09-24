@@ -47,13 +47,13 @@ const Contact = () => {
   ];
 
   return (
-    <section id="contact" className="py-20 px-4 gradient-subtle">
+    <section id="contact" className="py-20 px-4 bg-background">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
             Get In Touch
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Have a project in mind? Let's discuss how we can work together.
           </p>
         </div>
@@ -110,10 +110,10 @@ const Contact = () => {
           {/* Contact Info */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-bold mb-6 text-gray-800 dark:text-white">
+              <h3 className="text-2xl font-bold mb-6 text-white">
                 Let's Connect
               </h3>
-              <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-8">
+              <p className="text-lg text-gray-300 leading-relaxed mb-8">
                 I'm always interested in new opportunities and collaborations. 
                 Whether you have a project in mind or just want to chat about technology, 
                 feel free to reach out!

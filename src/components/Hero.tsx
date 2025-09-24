@@ -66,7 +66,7 @@ const Hero = () => {
           <Button 
             variant="default" 
             size="lg"
-            className="bg-foreground text-background hover:bg-foreground/90"
+            className="bg-white text-black hover:bg-white/90"
             onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
           >
             View Projects
