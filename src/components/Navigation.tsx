@@ -37,9 +37,9 @@ const Navigation = () => {
       <div className="max-w-6xl mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <button
+          <button 
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            className="text-2xl font-bold gradient-primary bg-clip-text text-transparent hover:scale-105 transition-bounce"
+            className="text-2xl font-bold text-white hover:scale-105 transition-bounce"
           >
             A.S.
           </button>
