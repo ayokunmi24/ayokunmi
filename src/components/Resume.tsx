@@ -8,11 +8,8 @@ const Resume = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
-            View Résumé
+            Résumé & Profile
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Seeking Summer 2026 MBA internship roles in Product Management, Program Management, AI Strategy, or Innovation.
-          </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
@@ -20,8 +17,14 @@ const Resume = () => {
           <Card className="shadow-card border-border/20 bg-card/50 backdrop-blur-sm">
             <CardContent className="p-8 text-center">
               <div className="mb-6">
-                <Download className="w-16 h-16 mx-auto text-white mb-4" />
-                <h3 className="text-2xl font-bold text-white mb-2">View Résumé</h3>
+                <div className="mb-4">
+                  <img 
+                    src="/resume-snapshot.png" 
+                    alt="Resume Preview" 
+                    className="w-full max-w-sm mx-auto rounded-lg shadow-lg border border-white/20"
+                  />
+                </div>
+                <h3 className="text-2xl font-bold text-white mb-2">Download Résumé</h3>
                 <p className="text-muted-foreground mb-6">
                   Download my comprehensive résumé to see my full background, skills, and experience in product development and AI integration.
                 </p>
@@ -32,7 +35,7 @@ const Resume = () => {
                 className="w-full bg-white text-black hover:bg-white/90"
                 asChild
               >
-                <a href="#" download>
+                <a href="/resume-snapshot.png" download>
                   <Download className="w-5 h-5 mr-2" />
                   Download Résumé
                 </a>
@@ -44,7 +47,13 @@ const Resume = () => {
           <Card className="shadow-card border-border/20 bg-card/50 backdrop-blur-sm">
             <CardContent className="p-8 text-center">
               <div className="mb-6">
-                <Linkedin className="w-16 h-16 mx-auto text-white mb-4" />
+                <div className="mb-4">
+                  <img 
+                    src="/linkedin-snapshot.png" 
+                    alt="LinkedIn Profile Preview" 
+                    className="w-full max-w-sm mx-auto rounded-lg shadow-lg border border-white/20"
+                  />
+                </div>
                 <h3 className="text-2xl font-bold text-white mb-2">Connect on LinkedIn</h3>
                 <p className="text-muted-foreground mb-6">
                   See more about my background, experiences, certifications, and professional network on LinkedIn.

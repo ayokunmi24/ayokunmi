@@ -120,10 +120,10 @@ const Contact = () => {
               </p>
             </div>
 
-            <div className="space-y-4 h-full flex flex-col justify-center">
+            <div className="space-y-4">
               {contactInfo.map((item, index) => (
-                <Card key={index} className="p-6 shadow-card hover:shadow-elegant transition-smooth border-border/20 flex-1 flex items-center">
-                  <div className="flex items-center gap-4 w-full">
+                <Card key={index} className="p-6 shadow-card hover:shadow-elegant transition-smooth border-border/20">
+                  <div className="flex items-center gap-4">
                     <div className="p-3 rounded-lg bg-white text-black">
                       {item.icon}
                     </div>
