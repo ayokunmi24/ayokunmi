@@ -1,6 +1,6 @@
 const Logo = ({ className = "text-2xl font-bold" }: { className?: string }) => {
   return (
-    <div className={`${className} gradient-primary bg-clip-text text-transparent`}>
+    <div className="flex items-center justify-center w-10 h-10 bg-white text-black rounded-full border-2 border-white font-bold text-lg">
       A.S.
     </div>
   );

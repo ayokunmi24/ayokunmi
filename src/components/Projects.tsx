@@ -71,7 +71,7 @@ const Projects = () => {
           {projects.map((project, index) => (
             <Card 
               key={index} 
-              className="group overflow-hidden shadow-card hover:shadow-elegant transition-smooth hover:scale-105 border-border/20"
+              className="group overflow-hidden shadow-card hover:shadow-elegant transition-smooth hover:scale-105 border-border/20 flex flex-col h-full"
             >
               <div className="relative overflow-hidden">
                 <img 
@@ -91,8 +91,8 @@ const Projects = () => {
                 </CardDescription>
               </CardHeader>
 
-              <CardContent className="space-y-4">
-                <div className="flex flex-wrap gap-2">
+              <CardContent className="space-y-4 flex flex-col h-full">
+                <div className="flex flex-wrap gap-2 flex-grow">
                   {project.technologies.map((tech, techIndex) => (
                     <Badge 
                       key={techIndex}
@@ -104,7 +104,7 @@ const Projects = () => {
                   ))}
                 </div>
 
-                <div className="flex gap-3">
+                <div className="flex gap-3 mt-auto">
                   <Button 
                     variant="default" 
                     size="sm" 

@@ -42,10 +42,18 @@ const Hero = () => {
           From Idea to Scalable Product — Research, Strategy & AI
         </p>
         
-        <p className="text-base text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed">
-          Based in Waco, Texas | I work with cross-functional teams to deliver products for startups and multi-national brands, 
+        <p className="text-base text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed">
+          Based in Texas | I work with cross-functional teams to deliver products for startups and multi-national brands, 
           leveraging qualitative research and product strategy to drive growth and create impactful user experiences.
         </p>
+
+        {/* New Bio Section */}
+        <div className="max-w-3xl mx-auto mb-12">
+          <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+            I'm an MSIS candidate at Baylor University with a strong background in finance and no-code development. 
+            I specialize in building scalable, AI-powered tools and have led multiple product launches from idea to execution.
+          </p>
+        </div>
 
         {/* Announcement Banner */}
         <div className="max-w-2xl mx-auto mb-12">
@@ -56,7 +64,7 @@ const Hero = () => {
             </div>
             <p className="text-sm text-muted-foreground">
               Let's build something impactful together! Seeking roles in Product Management, 
-              Strategy, or Innovation.
+              Program Management, Data Analysis, Strategy, or Innovation.
             </p>
           </div>
         </div>
