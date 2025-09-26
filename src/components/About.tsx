@@ -1,4 +1,5 @@
 import { Card } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import { Code2, Palette, Zap } from "lucide-react";
 
 const About = () => {
@@ -41,16 +42,18 @@ const About = () => {
               I have spent the last years working with cross-functional teams to deliver products for startups and multi-national brands like Leadway, Qore, Metro Africa Xpress (MAX), leveraging qualitative research and product strategy to drive growth.
             </p>
             <p className="text-lg text-gray-300 leading-relaxed">
-              Outside my product domain, I am also studying the underpinnings of Business Management, Cloud and Emerging technologies like AI and Blockchain out of a sheer curiosity.{" "}
-              <a 
-                href="https://ayokunmisodamola.notion.site/Read-More-About-Me-2385b80358f38149b544e4cb2476c426" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-white hover:text-primary transition-colors underline font-medium"
+              Outside my product domain, I am also studying the underpinnings of Business Management, Cloud and Emerging technologies like AI and Blockchain out of a sheer curiosity.
+            </p>
+            
+            <div className="mt-6">
+              <Button 
+                variant="outline"
+                onClick={() => window.location.href = '/about-me'}
+                className="text-white border-white hover:bg-white hover:text-black transition-colors"
               >
                 Read More
-              </a>
-            </p>
+              </Button>
+            </div>
           </div>
 
           <div className="grid gap-6">
