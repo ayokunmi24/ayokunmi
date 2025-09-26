@@ -47,13 +47,6 @@ const Hero = () => {
           leveraging qualitative research and product strategy to drive growth and create impactful user experiences.
         </p>
 
-        {/* New Bio Section */}
-        <div className="max-w-3xl mx-auto mb-12">
-          <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-            I'm an MSIS candidate at Baylor University with a strong background in finance and no-code development. 
-            I specialize in building scalable, AI-powered tools and have led multiple product launches from idea to execution.
-          </p>
-        </div>
 
         {/* Announcement Banner */}
         <div className="max-w-2xl mx-auto mb-12">

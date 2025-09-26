@@ -19,13 +19,22 @@ const Navigation = () => {
     { label: 'About', href: '#about' },
     { label: 'Skills', href: '#skills' },
     { label: 'Projects', href: '#projects' },
-    { label: 'Contact', href: '#contact' }
+    { label: 'Contact', href: '#contact' },
+    { label: 'Resume', href: 'https://drive.google.com/file/d/112XpMIOwP38sGFTZ6g4xsDbFc4w2j0jv/view?usp=sharing', external: true }
   ];
 
   const scrollToSection = (href: string) => {
     const element = document.querySelector(href);
     element?.scrollIntoView({ behavior: 'smooth' });
     setIsMobileMenuOpen(false);
+  };
+
+  const handleNavClick = (item: any) => {
+    if (item.external) {
+      window.open(item.href, '_blank', 'noopener,noreferrer');
+    } else {
+      scrollToSection(item.href);
+    }
   };
 
   return (
@@ -41,7 +50,7 @@ const Navigation = () => {
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             className="text-2xl font-bold text-white hover:scale-105 transition-bounce"
           >
-            A.S.
+            AS
           </button>
 
           {/* Desktop Navigation */}
@@ -49,7 +58,7 @@ const Navigation = () => {
             {navItems.map((item) => (
               <button
                 key={item.label}
-                onClick={() => scrollToSection(item.href)}
+                onClick={() => handleNavClick(item)}
                 className="text-foreground hover:text-primary transition-smooth font-medium"
               >
                 {item.label}
@@ -82,7 +91,7 @@ const Navigation = () => {
               {navItems.map((item) => (
                 <button
                   key={item.label}
-                  onClick={() => scrollToSection(item.href)}
+                  onClick={() => handleNavClick(item)}
                   className="text-left text-foreground hover:text-primary transition-smooth font-medium py-2"
                 >
                   {item.label}
