@@ -50,7 +50,7 @@ const Navigation = () => {
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             className="text-2xl font-bold text-white hover:scale-105 transition-bounce"
           >
-            AS
+            AS<span className="text-sm self-center ml-0.5">.</span>
           </button>
 
           {/* Desktop Navigation */}
@@ -64,13 +64,6 @@ const Navigation = () => {
                 {item.label}
               </button>
             ))}
-            <Button 
-              variant="default" 
-              size="sm"
-              onClick={() => scrollToSection('#contact')}
-            >
-              Hire Me
-            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -97,14 +90,6 @@ const Navigation = () => {
                   {item.label}
                 </button>
               ))}
-              <Button 
-                variant="default" 
-                size="sm" 
-                className="w-fit mt-2"
-                onClick={() => scrollToSection('#contact')}
-              >
-                Hire Me
-              </Button>
             </div>
           </div>
         )}
