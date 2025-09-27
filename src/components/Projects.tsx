@@ -8,41 +8,41 @@ const Projects = () => {
     {
       title: "CreditChek Platform",
       description: "Reliable finance & credit data platform providing credit insights, income verification, and identity services for African financial institutions.",
-      image: "/lovable-uploads/7255ba74-4352-4f42-84b0-493ebb9ce6f0.png",
+      image: "/lovable-uploads/creditchek-platform.png",
       technologies: ["Credit Data", "Fintech", "B2B", "API Platform"],
-      liveUrl: "https://www.creditchek.africa",
+      liveUrl: "https://www.web.recova.ng",
       githubUrl: "#"
     },
     {
       title: "Multi-Bank Direct Debit Solution",
       description: "Enterprise direct debit system enabling automated recurring payments across multiple banking institutions with mandate management.",
-      image: "/lovable-uploads/1954f087-7966-4d49-928e-758c81f6d217.png",
+      image: "/lovable-uploads/multi-bank-debit.png",
       technologies: ["Direct Debit", "Banking API", "Enterprise", "Payment Systems"],
-      liveUrl: "#",
+      liveUrl: "https://www.web.recova.ng",
       githubUrl: "#"
     },
     {
       title: "Recova App Suite Redesign",
       description: "Complete redesign of digital lending platform with enhanced UX/UI, streamlined workflows, and improved credit assessment capabilities.",
-      image: "/lovable-uploads/a72a5ab2-58c8-4d69-8977-7f9615165bfd.png",
+      image: "/lovable-uploads/recova-redesign.png",
       technologies: ["UX/UI Design", "Fintech", "Mobile App", "Web Platform"],
-      liveUrl: "https://web.recova.ng",
+      liveUrl: "https://www.web.recova.ng",
       githubUrl: "#"
     },
     {
-      title: "VendorCredit Management Portal",
-      description: "Supply chain finance platform connecting vendors with corporate buyers, enabling invoice financing and vendor onboarding management.",
-      image: "/lovable-uploads/b46319c5-6b7e-45b9-88a2-8effe43a4f1d.png",
-      technologies: ["Supply Chain", "Vendor Management", "B2B", "Finance"],
-      liveUrl: "https://vendorcredit.ng",
+      title: "Leadway Vendor Management Portal",
+      description: "Vendor onboarding and management portal for Leadway Assurance Company, streamlining vendor registration, document management, and approval workflows.",
+      image: "/lovable-uploads/vendor-management.png",
+      technologies: ["Vendor Management", "Insurance", "B2B", "Portal"],
+      liveUrl: "https://webapp.leadway.com/vendorformapp",
       githubUrl: "#"
     },
     {
-      title: "Transit E-commerce Platform",
+      title: "Transita E-commerce Platform",
       description: "Comprehensive e-commerce solution for transit and logistics companies, featuring booking management, route optimization, and customer portal.",
-      image: "/lovable-uploads/2ddb2bc2-9de0-43d9-8f3f-c80caa96c5ce.png",
+      image: "/lovable-uploads/transita-platform.png",
       technologies: ["E-commerce", "Logistics", "Transit", "B2C"],
-      liveUrl: "#",
+      liveUrl: "https://webapp.leadway.com/TransitaApp",
       githubUrl: "#"
     },
     {
