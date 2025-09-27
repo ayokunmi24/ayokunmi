@@ -10,7 +10,7 @@ const Projects = () => {
       description: "Reliable finance & credit data platform providing credit insights, income verification, and identity services for African financial institutions.",
       image: "/lovable-uploads/creditchek-platform.png",
       technologies: ["Credit Data", "Fintech", "B2B", "API Platform"],
-      liveUrl: "https://www.web.recova.ng",
+      liveUrl: "https://web.recova.ng",
       githubUrl: "#"
     },
     {
@@ -18,7 +18,7 @@ const Projects = () => {
       description: "Enterprise direct debit system enabling automated recurring payments across multiple banking institutions with mandate management.",
       image: "/lovable-uploads/multi-bank-debit.png",
       technologies: ["Direct Debit", "Banking API", "Enterprise", "Payment Systems"],
-      liveUrl: "https://www.web.recova.ng",
+      liveUrl: "https://web.recova.ng",
       githubUrl: "#"
     },
     {
@@ -26,7 +26,7 @@ const Projects = () => {
       description: "Complete redesign of digital lending platform with enhanced UX/UI, streamlined workflows, and improved credit assessment capabilities.",
       image: "/lovable-uploads/recova-redesign.png",
       technologies: ["UX/UI Design", "Fintech", "Mobile App", "Web Platform"],
-      liveUrl: "https://www.web.recova.ng",
+      liveUrl: "https://web.recova.ng",
       githubUrl: "#"
     },
     {
