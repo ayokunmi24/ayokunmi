@@ -29,7 +29,7 @@ const About = () => {
             About Me
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            I'm a passionate Product Manager with extensive experience working with cross-functional teams to deliver products for startups and multi-national brands.
+            I'm a passionate Product Manager with extensive experience working with cross-functional teams to deliver products for startups and multi-national brands with a customer-first mindset
           </p>
         </div>
 

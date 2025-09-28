@@ -13,7 +13,7 @@ const Footer = () => {
               Ayokunmi Sodamola
             </div>
             <p className="text-sm text-muted-foreground flex items-center gap-1 justify-center md:justify-start">
-              Made with <Heart className="w-4 h-4 text-red-500 fill-current" /> using Lovable in {currentYear}
+              © {currentYear} Ayokunmi Sodamola. All rights reserved.
             </p>
           </div>
 

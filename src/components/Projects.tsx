@@ -6,7 +6,7 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "CreditChek Platform",
+      title: "CreditCheck Platform",
       description: "Reliable finance & credit data platform providing credit insights, income verification, and identity services for African financial institutions.",
       image: "/lovable-uploads/creditchek-platform.png",
       technologies: ["Credit Data", "Fintech", "B2B", "API Platform"],
@@ -92,7 +92,7 @@ const Projects = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
-            Featured Projects
+            Work
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             A showcase of my recent work and personal projects

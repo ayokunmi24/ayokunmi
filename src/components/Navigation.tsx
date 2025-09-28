@@ -18,7 +18,7 @@ const Navigation = () => {
   const navItems = [
     { label: 'About', href: '#about' },
     { label: 'Skills', href: '#skills' },
-    { label: 'Projects', href: '#projects' },
+    { label: 'Works', href: '#projects' },
     { label: 'Contact', href: '#contact' },
     { label: 'Resume', href: 'https://drive.google.com/file/d/112XpMIOwP38sGFTZ6g4xsDbFc4w2j0jv/view?usp=sharing', external: true }
   ];

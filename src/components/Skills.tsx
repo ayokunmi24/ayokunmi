@@ -4,7 +4,7 @@ const Skills = () => {
   const skillCategories = [
     {
       title: "Core Competencies",
-      skills: ["Product Discovery", "Product Design", "User Experience", "Agile(SCRUM)", "Business Systems Analysis", "Database Modeling", "AI/ML Product Strategy", "Data Analysis", "Product Requirement Documentation", "Machine Learning"]
+      skills: ["Product Discovery", "Product Design", "User Experience", "Agile(SCRUM)", "Business Systems Analysis", "Database Modeling", "AI/ML Product Strategy", "Data Analysis", "Product Requirement Documentation", "Machine Learning", "Business Analysis", "Change Management", "Process Optimization", "Stakeholders Management"]
     },
     {
       title: "Programming Languages",
