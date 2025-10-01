@@ -84,6 +84,30 @@ const Projects = () => {
       technologies: ["Insurance", "SaaS", "B2C", "Design"],
       liveUrl: "https://www.figma.com/proto/dV1Xp63mI9T8yZFrKCkmVa/-LW----UI-Concept?page-id=2233%3A30818&node-id=2363-25126&starting-point-node-id=2363%3A25126",
       githubUrl: "#"
+    },
+    {
+      title: "Ankara Insurance Portal",
+      description: "Third Party Health Administrator (TPHA) digital platform in Cote d'Ivoire enabling users to access health services including health insurance plans, telemedicine, and wellness programs.",
+      image: "/lovable-uploads/ankara-insurance.png",
+      technologies: ["Healthcare", "Insurance", "B2C", "Design"],
+      liveUrl: "#",
+      githubUrl: "#"
+    },
+    {
+      title: "Leadway Micro Investment Portal",
+      description: "Investment platform that makes investing simple and accessible with cutting-edge tools, expert guidance and user-friendly interface. Features multi-currency investment options in naira or dollars.",
+      image: "/lovable-uploads/leadway-investment.png",
+      technologies: ["Finance", "Investment", "B2C", "Web Platform"],
+      liveUrl: "#",
+      githubUrl: "#"
+    },
+    {
+      title: "Leadway Health App",
+      description: "Health and wellness app with appointment booking, telemedicine, and personalized health tracking. Became the most used Health Insurance app in Nigeria after the first year of release.",
+      image: "/lovable-uploads/leadway-health-app.png",
+      technologies: ["Health Insurance", "Mobile App", "B2C", "Telemedicine"],
+      liveUrl: "https://leadwayhealth.com",
+      githubUrl: "#"
     }
   ];
 

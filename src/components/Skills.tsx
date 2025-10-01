@@ -51,7 +51,7 @@ const Skills = () => {
                           <Badge 
                             key={idx}
                             variant="outline"
-                            className="text-sm px-4 py-2 transition-bounce hover:scale-110 hover:shadow-card hover:bg-gray-800 border-gray-600 text-gray-200"
+                            className="text-sm px-4 py-2 transition-bounce hover:scale-110 hover:shadow-card hover:bg-gray-800 border-gray-600 text-gray-200 whitespace-nowrap"
                           >
                             {skill}
                           </Badge>
