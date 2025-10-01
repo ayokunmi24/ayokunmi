@@ -4,7 +4,15 @@ const Skills = () => {
   const skillCategories = [
     {
       title: "Core Competencies",
-      skills: ["Product Discovery", "Product Design", "User Experience", "Agile(SCRUM)", "Business Systems Analysis", "Database Modeling", "AI/ML Product Strategy", "Data Analysis", "Product Requirement Documentation", "Machine Learning", "Business Analysis", "Change Management", "Process Optimization", "Stakeholders Management"]
+      skills: [
+        ["Product Discovery", "Product Design"],
+        ["User Experience", "Agile(SCRUM)"],
+        ["Business Systems Analysis", "Database Modeling"],
+        ["AI/ML Product Strategy", "Data Analysis"],
+        ["Machine Learning", "Business Analysis"],
+        ["Change Management", "Process Optimization"],
+        ["Stakeholders Management", "Product Requirement Documentation"]
+      ]
     },
     {
       title: "Programming Languages",
@@ -35,15 +43,41 @@ const Skills = () => {
                 {category.title}
               </h3>
               <div className="flex flex-wrap gap-3 justify-center">
-                {category.skills.map((skill, skillIndex) => (
-                  <Badge 
-                    key={skillIndex}
-                    variant="outline"
-                    className="text-sm px-4 py-2 transition-bounce hover:scale-110 hover:shadow-card hover:bg-gray-800 border-gray-600 text-gray-200"
-                  >
-                    {skill}
-                  </Badge>
-                ))}
+                {category.title === "Core Competencies" ? (
+                  category.skills.map((skillPair, skillIndex) => (
+                    Array.isArray(skillPair) ? (
+                      <div key={skillIndex} className="flex gap-3">
+                        {skillPair.map((skill, idx) => (
+                          <Badge 
+                            key={idx}
+                            variant="outline"
+                            className="text-sm px-4 py-2 transition-bounce hover:scale-110 hover:shadow-card hover:bg-gray-800 border-gray-600 text-gray-200"
+                          >
+                            {skill}
+                          </Badge>
+                        ))}
+                      </div>
+                    ) : (
+                      <Badge 
+                        key={skillIndex}
+                        variant="outline"
+                        className="text-sm px-4 py-2 transition-bounce hover:scale-110 hover:shadow-card hover:bg-gray-800 border-gray-600 text-gray-200"
+                      >
+                        {skillPair}
+                      </Badge>
+                    )
+                  ))
+                ) : (
+                  category.skills.map((skill, skillIndex) => (
+                    <Badge 
+                      key={skillIndex}
+                      variant="outline"
+                      className="text-sm px-4 py-2 transition-bounce hover:scale-110 hover:shadow-card hover:bg-gray-800 border-gray-600 text-gray-200"
+                    >
+                      {skill}
+                    </Badge>
+                  ))
+                )}
               </div>
             </div>
           ))}

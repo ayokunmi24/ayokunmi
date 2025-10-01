@@ -46,13 +46,6 @@ const Footer = () => {
             </a>
           </div>
         </div>
-
-        {/* Bottom Border */}
-        <div className="mt-8 pt-6 border-t border-white/20 text-center">
-          <p className="text-sm text-muted-foreground">
-            © {currentYear} Ayokunmi Sodamola. All rights reserved.
-          </p>
-        </div>
       </div>
     </footer>
   );
