@@ -7,11 +7,10 @@ const Skills = () => {
       skills: [
         ["Product Discovery", "Product Design"],
         ["User Experience", "Agile(SCRUM)"],
-        ["Business Systems Analysis", "Database Modeling"],
-        ["AI/ML Product Strategy", "Data Analysis"],
-        ["Machine Learning", "Business Analysis"],
-        ["Change Management", "Process Optimization"],
-        ["Stakeholders Management", "Product Requirement Documentation"]
+        ["Database Modeling", "AI/ML Product Strategy"],
+        ["Data Analysis", "Machine Learning"],
+        ["Business Analysis", "Change Management"],
+        ["Process Optimization"]
       ]
     },
     {

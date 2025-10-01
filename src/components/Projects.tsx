@@ -100,14 +100,6 @@ const Projects = () => {
       technologies: ["Finance", "Investment", "B2C", "Web Platform"],
       liveUrl: "#",
       githubUrl: "#"
-    },
-    {
-      title: "Leadway Health App",
-      description: "Health and wellness app with appointment booking, telemedicine, and personalized health tracking. Became the most used Health Insurance app in Nigeria after the first year of release.",
-      image: "/lovable-uploads/leadway-health-app.png",
-      technologies: ["Health Insurance", "Mobile App", "B2C", "Telemedicine"],
-      liveUrl: "https://leadwayhealth.com",
-      githubUrl: "#"
     }
   ];
 
