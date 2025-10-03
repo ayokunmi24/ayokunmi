@@ -17,11 +17,19 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // In a real app, you'd send this to your backend
+    
+    // Create WhatsApp message
+    const message = `Name: ${formData.name}%0AEmail: ${formData.email}%0A%0AMessage:%0A${formData.message}`;
+    const whatsappUrl = `https://wa.me/12542146624?text=${message}`;
+    
+    // Open WhatsApp
+    window.open(whatsappUrl, '_blank');
+    
     toast({
-      title: "Message sent!",
-      description: "Thanks for reaching out. I'll get back to you soon.",
+      title: "Redirecting to WhatsApp",
+      description: "Your message will be sent via WhatsApp.",
     });
+    
     setFormData({ name: '', email: '', message: '' });
   };
 

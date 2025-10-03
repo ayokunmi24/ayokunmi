@@ -4,10 +4,16 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
-import IndexV2 from "./pages/IndexV2";
 import AboutMe from "./pages/AboutMe";
 import NotFound from "./pages/NotFound";
 import LeadwayHealthDetail from "./pages/projects/LeadwayHealthDetail";
+import RecovaRedesignDetail from "./pages/projects/RecovaRedesignDetail";
+import VendorManagementDetail from "./pages/projects/VendorManagementDetail";
+import AnkaraInsuranceDetail from "./pages/projects/AnkaraInsuranceDetail";
+import LeadwayInvestmentDetail from "./pages/projects/LeadwayInvestmentDetail";
+import CreditCheckDetail from "./pages/projects/CreditCheckDetail";
+import MultiBankDebitDetail from "./pages/projects/MultiBankDebitDetail";
+import TransitaDetail from "./pages/projects/TransitaDetail";
 
 const queryClient = new QueryClient();
 
@@ -19,9 +25,15 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/v2" element={<IndexV2 />} />
           <Route path="/about-me" element={<AboutMe />} />
           <Route path="/projects/leadway-health" element={<LeadwayHealthDetail />} />
+          <Route path="/projects/recova-redesign" element={<RecovaRedesignDetail />} />
+          <Route path="/projects/vendor-management" element={<VendorManagementDetail />} />
+          <Route path="/projects/ankara-insurance" element={<AnkaraInsuranceDetail />} />
+          <Route path="/projects/leadway-investment" element={<LeadwayInvestmentDetail />} />
+          <Route path="/projects/creditcheck" element={<CreditCheckDetail />} />
+          <Route path="/projects/multi-bank-debit" element={<MultiBankDebitDetail />} />
+          <Route path="/projects/transita" element={<TransitaDetail />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
