@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import IndexV2 from "./pages/IndexV2";
 import AboutMe from "./pages/AboutMe";
 import NotFound from "./pages/NotFound";
+import LeadwayHealthDetail from "./pages/projects/LeadwayHealthDetail";
 
 const queryClient = new QueryClient();
 
@@ -20,6 +21,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/v2" element={<IndexV2 />} />
           <Route path="/about-me" element={<AboutMe />} />
+          <Route path="/projects/leadway-health" element={<LeadwayHealthDetail />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

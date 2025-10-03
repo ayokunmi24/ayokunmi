@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const ProjectsV2 = () => {
   const projects = [
     {
@@ -38,7 +40,8 @@ const ProjectsV2 = () => {
     {
       title: "Leadway Health Management System",
       image: "/lovable-uploads/b46319c5-6b7e-45b9-88a2-8effe43a4f1d.png",
-      url: "https://leadwayhealth.com"
+      url: "/projects/leadway-health",
+      isInternal: true
     },
     {
       title: "Agency Banking Solution (Cluster)",
@@ -75,28 +78,44 @@ const ProjectsV2 = () => {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, index) => (
-            <a
-              key={index}
-              href={project.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group block bg-white rounded-lg overflow-hidden hover:shadow-xl transition-all duration-300"
-            >
-              <div className="aspect-video overflow-hidden">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-semibold text-gray-900 group-hover:text-gray-600 transition-colors">
-                  {project.title}
-                </h3>
-              </div>
-            </a>
-          ))}
+          {projects.map((project, index) => {
+            const content = (
+              <>
+                <div className="aspect-video overflow-hidden">
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold text-gray-900 group-hover:text-gray-600 transition-colors">
+                    {project.title}
+                  </h3>
+                </div>
+              </>
+            );
+
+            return project.isInternal ? (
+              <Link
+                key={index}
+                to={project.url}
+                className="group block bg-white rounded-lg overflow-hidden hover:shadow-xl transition-all duration-300"
+              >
+                {content}
+              </Link>
+            ) : (
+              <a
+                key={index}
+                href={project.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group block bg-white rounded-lg overflow-hidden hover:shadow-xl transition-all duration-300"
+              >
+                {content}
+              </a>
+            );
+          })}
         </div>
       </div>
     </section>
