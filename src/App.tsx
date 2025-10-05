@@ -17,6 +17,7 @@ import TransitaDetail from "./pages/projects/TransitaDetail";
 import HydraApiDetail from "./pages/projects/HydraApiDetail";
 import AgencyBankingDetail from "./pages/projects/AgencyBankingDetail";
 import LeadwaySuperAppDetail from "./pages/projects/LeadwaySuperAppDetail";
+import LunaDetail from "./pages/projects/LunaDetail";
 
 const queryClient = new QueryClient();
 
@@ -40,6 +41,7 @@ const App = () => (
         <Route path="/projects/hydra-api" element={<HydraApiDetail />} />
         <Route path="/projects/agency-banking" element={<AgencyBankingDetail />} />
         <Route path="/projects/leadway-superapp" element={<LeadwaySuperAppDetail />} />
+        <Route path="/projects/luna" element={<LunaDetail />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

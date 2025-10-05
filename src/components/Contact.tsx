@@ -63,7 +63,7 @@ const Contact = () => {
     {
       icon: <MapPin className="w-6 h-6" />,
       title: "Location",
-      value: "Waco, Texas",
+      value: "Texas, US",
       link: ""
     }
   ];

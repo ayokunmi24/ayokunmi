@@ -65,6 +65,7 @@ const Projects = () => {
       description: "Luna is a conversational chatbot that interacts with customers on behalf of a customer success associate.",
       image: "/lovable-uploads/1954f087-7966-4d49-928e-758c81f6d217.png",
       technologies: ["AI/ML", "Virtual Reality", "SaaS", "Enterprise Software"],
+      detailUrl: "/projects/luna",
       liveUrl: "#",
       githubUrl: "#"
     },
