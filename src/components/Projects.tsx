@@ -56,6 +56,7 @@ const Projects = () => {
       description: "A consolidated API gateway that leverages integration to commercial banks to carry out financial transactions.",
       image: "/lovable-uploads/7255ba74-4352-4f42-84b0-493ebb9ce6f0.png",
       technologies: ["SaaS", "Enterprise Software", "B2B", "Fintech"],
+      detailUrl: "/projects/hydra-api",
       liveUrl: "https://www.hydra.ng",
       githubUrl: "#"
     },
@@ -81,6 +82,7 @@ const Projects = () => {
       description: "Agent banking solution that enables agents perform banking services via mobile and back-office web applications.",
       image: "/lovable-uploads/2ddb2bc2-9de0-43d9-8f3f-c80caa96c5ce.png",
       technologies: ["Agency Banking", "POS", "Fintech", "B2B"],
+      detailUrl: "/projects/agency-banking",
       liveUrl: "https://web.cluster.africa/logout",
       githubUrl: "#"
     },
@@ -89,6 +91,7 @@ const Projects = () => {
       description: "Comprehensive SuperApp design for Nigerian financial services conglomerate spanning multiple business areas.",
       image: "/lovable-uploads/e594e4d5-89f4-4580-aaf8-72ca5ae95dd8.png",
       technologies: ["Insurance", "SaaS", "B2C", "Design"],
+      detailUrl: "/projects/leadway-superapp",
       liveUrl: "https://www.figma.com/proto/dV1Xp63mI9T8yZFrKCkmVa/-LW----UI-Concept?page-id=2233%3A30818&node-id=2363-25126&starting-point-node-id=2363%3A25126",
       githubUrl: "#"
     },
