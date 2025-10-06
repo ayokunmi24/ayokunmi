@@ -169,7 +169,7 @@ const Projects = () => {
                   <div className="flex gap-3" onClick={(e) => e.stopPropagation()}>
                     {project.detailUrl && (
                       <Button 
-                        variant="default" 
+                        variant="white" 
                         size="sm" 
                         className="flex-1"
                         asChild

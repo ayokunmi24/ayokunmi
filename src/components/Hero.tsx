@@ -65,9 +65,8 @@ const Hero = () => {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
           <Button 
-            variant="default" 
+            variant="white" 
             size="lg"
-            className="bg-white text-black hover:bg-white/90"
             onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
           >
             View Projects

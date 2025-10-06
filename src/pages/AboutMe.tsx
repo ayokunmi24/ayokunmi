@@ -227,7 +227,7 @@ const AboutMe = () => {
                 Whether you're looking for a product strategist, a collaborative team member, 
                 or someone to bring your next big idea to life, I'd love to hear from you.
               </p>
-              <Button size="lg" onClick={handleGetInTouch}>
+              <Button variant="white" size="lg" onClick={handleGetInTouch}>
                 Get In Touch
               </Button>
             </div>

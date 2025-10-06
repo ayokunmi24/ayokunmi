@@ -122,7 +122,7 @@ const Contact = () => {
                     required
                   />
                 </div>
-                <Button type="submit" variant="hero" className="w-full">
+                <Button type="submit" variant="white" className="w-full">
                   Send Message
                 </Button>
               </form>
