@@ -169,7 +169,7 @@ const Projects = () => {
                   <div className="flex gap-3" onClick={(e) => e.stopPropagation()}>
                     {project.detailUrl && (
                       <Button 
-                        variant="white" 
+                        variant="outline-white" 
                         size="sm" 
                         className="flex-1"
                         asChild
@@ -180,15 +180,17 @@ const Projects = () => {
                       </Button>
                     )}
                     {project.liveUrl !== "#" && (
-                      <Button 
-                        variant="outline" 
-                        size="sm"
-                        asChild
+                      <a 
+                        href={project.liveUrl} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-white hover:text-white/80 transition-smooth text-sm font-medium inline-flex items-center justify-center gap-2"
                       >
-                        <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
-                          <ExternalLink className="w-4 h-4" />
-                        </a>
-                      </Button>
+                        Read More
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                        </svg>
+                      </a>
                     )}
                   </div>
                 </CardContent>
