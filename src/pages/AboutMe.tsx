@@ -1,9 +1,21 @@
 import { ArrowLeft, Quote } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import ayokunmiPhoto from "@/assets/ayokunmi-photo.jpg";
 
 const AboutMe = () => {
+  const navigate = useNavigate();
+
+  const handleGetInTouch = () => {
+    navigate('/');
+    setTimeout(() => {
+      const contactSection = document.getElementById('contact');
+      if (contactSection) {
+        contactSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, 100);
+  };
+
   return (
     <div className="min-h-screen bg-background">
       {/* Header Navigation */}
@@ -215,10 +227,8 @@ const AboutMe = () => {
                 Whether you're looking for a product strategist, a collaborative team member, 
                 or someone to bring your next big idea to life, I'd love to hear from you.
               </p>
-              <Button size="lg" asChild>
-                <Link to="/#contact">
-                  Get In Touch
-                </Link>
+              <Button size="lg" onClick={handleGetInTouch}>
+                Get In Touch
               </Button>
             </div>
           </div>
