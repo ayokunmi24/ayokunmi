@@ -74,7 +74,7 @@ const Hero = () => {
           <Button 
             variant="outline" 
             size="lg"
-            className="border-border text-foreground hover:bg-secondary/50"
+            className="border-border text-foreground hover:bg-accent hover:text-accent-foreground"
             onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
           >
             Contact Me

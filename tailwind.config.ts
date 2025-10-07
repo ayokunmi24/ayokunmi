@@ -14,7 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['Inter', 'ui-sans-serif', 'system-ui'],
+        sans: ['Futura', 'Inter', 'ui-sans-serif', 'system-ui'],
+        futura: ['Futura', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",

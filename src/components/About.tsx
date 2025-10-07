@@ -47,7 +47,7 @@ const About = () => {
             <div className="mt-6">
               <a 
                 href="/about-me"
-                className="text-white hover:text-white/80 transition-smooth text-base font-medium inline-flex items-center gap-2"
+                className="border border-white/30 px-4 py-2 rounded-[30px] text-white hover:bg-white/10 transition-smooth text-base font-medium inline-flex items-center gap-2"
               >
                 Read More
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
