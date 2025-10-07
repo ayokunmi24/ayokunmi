@@ -6,7 +6,7 @@ const Resume = () => {
       <div className="max-w-4xl mx-auto">
         <Card className="shadow-card border-border/20 bg-card/50 backdrop-blur-sm">
           <CardContent className="p-8 text-center">
-            <p className="text-lg text-gray-300 leading-relaxed mb-8">
+            <p className="text-lg text-muted-foreground leading-relaxed mb-8">
               I'm an MMIS candidate at Baylor University with a strong background in finance and no-code development. 
               I specialize in building scalable, AI-powered tools and have led multiple product launches from idea to execution.
             </p>

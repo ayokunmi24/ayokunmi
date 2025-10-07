@@ -72,10 +72,10 @@ const Contact = () => {
     <section id="contact" className="py-20 px-4 bg-background">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
             Get In Touch
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Have a project in mind? Let's discuss how we can work together.
           </p>
         </div>
@@ -132,10 +132,10 @@ const Contact = () => {
           {/* Contact Info */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-bold mb-6 text-white">
+              <h3 className="text-2xl font-bold mb-6 text-foreground">
                 Let's Connect
               </h3>
-              <p className="text-lg text-gray-300 leading-relaxed mb-8">
+              <p className="text-lg text-muted-foreground leading-relaxed mb-8">
                 I'm always interested in new opportunities and collaborations. 
                 Whether you have a project in mind or just want to chat about technology, 
                 feel free to reach out!
@@ -146,7 +146,7 @@ const Contact = () => {
               {contactInfo.map((item, index) => (
                 <Card key={index} className="p-6 shadow-card hover:shadow-elegant transition-smooth border-border/20">
                   <div className="flex items-center gap-4">
-                    <div className="p-3 rounded-lg bg-white text-black">
+                    <div className="p-3 rounded-lg bg-primary text-primary-foreground">
                       {item.icon}
                     </div>
                     <div>

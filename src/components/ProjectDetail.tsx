@@ -41,7 +41,7 @@ const ProjectDetail = ({
         {/* Hero Content */}
         <div className="relative h-full flex items-center justify-center px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl md:text-7xl font-bold text-white mb-8">
+            <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-8">
               {title}
             </h1>
           </div>
@@ -50,7 +50,7 @@ const ProjectDetail = ({
         {/* Back Button - Top Left */}
         <div className="absolute top-6 left-6">
           <Link to="/">
-            <Button variant="outline" className="bg-white/10 backdrop-blur-sm border-white/20 text-white hover:bg-white/20">
+            <Button variant="outline" className="bg-card/50 backdrop-blur-sm border-border text-foreground hover:bg-card/70">
               <ArrowLeft className="w-4 h-4 mr-2" />
               Back to Portfolio
             </Button>

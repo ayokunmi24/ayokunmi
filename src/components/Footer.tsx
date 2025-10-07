@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Logo and Copyright */}
           <div className="text-center md:text-left">
-            <div className="text-2xl font-bold mb-2 text-white">
+            <div className="text-2xl font-bold mb-2 text-foreground">
               Ayokunmi Sodamola
             </div>
             <p className="text-sm text-muted-foreground flex items-center gap-1 justify-center md:justify-start">
@@ -21,7 +21,7 @@ const Footer = () => {
           <div className="flex items-center gap-4">
             <a 
               href="https://github.com" 
-              className="p-2 rounded-full hover:bg-white/10 transition-smooth hover:scale-110 text-muted-foreground hover:text-white"
+              className="p-2 rounded-full hover:bg-accent transition-smooth hover:scale-110 text-muted-foreground hover:text-primary"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
@@ -30,7 +30,7 @@ const Footer = () => {
             </a>
             <a 
               href="https://www.linkedin.com/in/ayokunmis" 
-              className="p-2 rounded-full hover:bg-white/10 transition-smooth hover:scale-110 text-muted-foreground hover:text-white"
+              className="p-2 rounded-full hover:bg-accent transition-smooth hover:scale-110 text-muted-foreground hover:text-primary"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
@@ -39,7 +39,7 @@ const Footer = () => {
             </a>
             <a 
               href="mailto:ayokunmi84@gmail.com" 
-              className="p-2 rounded-full hover:bg-white/10 transition-smooth hover:scale-110 text-muted-foreground hover:text-white"
+              className="p-2 rounded-full hover:bg-accent transition-smooth hover:scale-110 text-muted-foreground hover:text-primary"
               aria-label="Email"
             >
               <Mail className="w-5 h-5" />

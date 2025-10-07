@@ -120,7 +120,7 @@ const Projects = () => {
     <section id="projects" className="py-20 px-4 bg-background">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
             Work
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">

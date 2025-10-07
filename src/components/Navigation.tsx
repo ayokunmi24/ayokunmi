@@ -49,7 +49,7 @@ const Navigation = () => {
           {/* Logo */}
           <button 
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            className="text-2xl font-bold text-white hover:scale-105 transition-bounce"
+            className="text-2xl font-bold text-foreground hover:scale-105 transition-bounce"
           >
             AS<span className="text-sm self-center ml-0.5">.</span>
           </button>
