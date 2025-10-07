@@ -3,6 +3,7 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { ThemeProvider } from "next-themes";
 import Index from "./pages/Index";
 import AboutMe from "./pages/AboutMe";
 import NotFound from "./pages/NotFound";
@@ -23,30 +24,32 @@ const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/about-me" element={<AboutMe />} />
-        <Route path="/projects/leadway-health" element={<LeadwayHealthDetail />} />
-        <Route path="/projects/recova-redesign" element={<RecovaRedesignDetail />} />
-        <Route path="/projects/vendor-management" element={<VendorManagementDetail />} />
-        <Route path="/projects/ankara-insurance" element={<AnkaraInsuranceDetail />} />
-        <Route path="/projects/leadway-investment" element={<LeadwayInvestmentDetail />} />
-        <Route path="/projects/creditcheck" element={<CreditCheckDetail />} />
-        <Route path="/projects/multi-bank-debit" element={<MultiBankDebitDetail />} />
-        <Route path="/projects/transita" element={<TransitaDetail />} />
-        <Route path="/projects/hydra-api" element={<HydraApiDetail />} />
-        <Route path="/projects/agency-banking" element={<AgencyBankingDetail />} />
-        <Route path="/projects/leadway-superapp" element={<LeadwaySuperAppDetail />} />
-        <Route path="/projects/luna" element={<LunaDetail />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </BrowserRouter>
-    </TooltipProvider>
+    <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
+      <TooltipProvider>
+        <Toaster />
+        <Sonner />
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Index />} />
+            <Route path="/about-me" element={<AboutMe />} />
+          <Route path="/projects/leadway-health" element={<LeadwayHealthDetail />} />
+          <Route path="/projects/recova-redesign" element={<RecovaRedesignDetail />} />
+          <Route path="/projects/vendor-management" element={<VendorManagementDetail />} />
+          <Route path="/projects/ankara-insurance" element={<AnkaraInsuranceDetail />} />
+          <Route path="/projects/leadway-investment" element={<LeadwayInvestmentDetail />} />
+          <Route path="/projects/creditcheck" element={<CreditCheckDetail />} />
+          <Route path="/projects/multi-bank-debit" element={<MultiBankDebitDetail />} />
+          <Route path="/projects/transita" element={<TransitaDetail />} />
+          <Route path="/projects/hydra-api" element={<HydraApiDetail />} />
+          <Route path="/projects/agency-banking" element={<AgencyBankingDetail />} />
+          <Route path="/projects/leadway-superapp" element={<LeadwaySuperAppDetail />} />
+          <Route path="/projects/luna" element={<LunaDetail />} />
+            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </BrowserRouter>
+      </TooltipProvider>
+    </ThemeProvider>
   </QueryClientProvider>
 );
 

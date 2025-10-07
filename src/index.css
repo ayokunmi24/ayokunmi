@@ -70,42 +70,43 @@ All colors MUST be HSL.
 
   .light {
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 222.2 47% 11%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 222.2 47% 11%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 222.2 47% 11%;
 
-    --primary: 221.2 83.2% 53.3%;
-    --primary-foreground: 210 40% 98%;
-    --primary-glow: 221.2 83.2% 63.3%;
+    --primary: 263 85% 70%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 263 85% 80%;
 
     --secondary: 210 40% 96%;
-    --secondary-foreground: 222.2 84% 4.9%;
+    --secondary-foreground: 222.2 47% 11%;
 
     --muted: 210 40% 96%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96%;
-    --accent-foreground: 222.2 84% 4.9%;
+    --accent: 263 85% 70%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 221.2 83.2% 53.3%;
+    --ring: 263 85% 70%;
 
     --gradient-primary: linear-gradient(135deg, hsl(263 85% 70%), hsl(283 85% 80%));
     --gradient-secondary: linear-gradient(135deg, hsl(241 84% 35%), hsl(261 84% 45%));
-    --gradient-subtle: linear-gradient(180deg, hsl(222.2 84% 4.9%), hsl(222.2 84% 6%));
+    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%), hsl(240 10% 98%));
     --gradient-hero: linear-gradient(135deg, hsl(263 85% 70% / 0.1), hsl(283 85% 80% / 0.05));
     
     --shadow-elegant: 0 10px 30px -10px hsl(263 85% 70% / 0.3);
     --shadow-glow: 0 0 40px hsl(263 71% 50% / 0.4);
-    --shadow-card: 0 4px 20px -4px hsl(241 84% 35% / 0.2);
+    --shadow-card: 0 4px 20px -4px hsl(241 84% 35% / 0.15);
+    
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -114,6 +115,8 @@ All colors MUST be HSL.
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    --radius: 0.75rem;
   }
 }
 
