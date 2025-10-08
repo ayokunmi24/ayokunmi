@@ -30,7 +30,7 @@ const Skills = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
             Skills & Technologies
           </h2>
-          <p className="text-xl max-w-3xl mx-auto" style={{ color: '#101828' }}>
+          <p className="text-xl text-foreground max-w-3xl mx-auto">
             Here are the technologies I work with to bring ideas to life
           </p>
         </div>
