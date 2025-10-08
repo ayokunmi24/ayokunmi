@@ -70,23 +70,23 @@ All colors MUST be HSL.
 
   .light {
     --background: 0 0% 100%;
-    --foreground: 0 0% 0%;
+    --foreground: 210 47% 11%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 47% 11%;
+    --card-foreground: 210 47% 11%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 47% 11%;
+    --popover-foreground: 210 47% 11%;
 
     --primary: 263 85% 70%;
     --primary-foreground: 0 0% 100%;
     --primary-glow: 263 85% 80%;
 
     --secondary: 210 40% 96%;
-    --secondary-foreground: 222.2 47% 11%;
+    --secondary-foreground: 210 47% 11%;
 
     --muted: 210 40% 96%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted-foreground: 210 47% 11%;
 
     --accent: 263 85% 70%;
     --accent-foreground: 0 0% 100%;
