@@ -13,7 +13,7 @@ const Projects = () => {
       technologies: ["Credit Data", "Fintech", "B2B", "API Platform"],
       detailUrl: "/projects/creditcheck",
       liveUrl: "https://web.recova.ng",
-      githubUrl: "#"
+      githubUrl: "https://github.com/ayokunmi24/ayokunmi"
     },
     {
       title: "Multi-Bank Direct Debit Solution",
@@ -22,7 +22,7 @@ const Projects = () => {
       technologies: ["Direct Debit", "Banking API", "Enterprise", "Payment Systems"],
       detailUrl: "/projects/multi-bank-debit",
       liveUrl: "https://web.recova.ng",
-      githubUrl: "#"
+      githubUrl: "https://github.com/ayokunmi24/ayokunmi"
     },
     {
       title: "Recova App Suite Redesign",
@@ -31,7 +31,7 @@ const Projects = () => {
       technologies: ["UX/UI Design", "Fintech", "Mobile App", "Web Platform"],
       detailUrl: "/projects/recova-redesign",
       liveUrl: "https://web.recova.ng",
-      githubUrl: "#"
+      githubUrl: "https://github.com/ayokunmi24/ayokunmi"
     },
     {
       title: "Leadway Vendor Management Portal",
@@ -40,7 +40,7 @@ const Projects = () => {
       technologies: ["Vendor Management", "Insurance", "B2B", "Portal"],
       detailUrl: "/projects/vendor-management",
       liveUrl: "https://webapp.leadway.com/vendorformapp",
-      githubUrl: "#"
+      githubUrl: "https://github.com/ayokunmi24/ayokunmi"
     },
     {
       title: "Transita E-commerce Platform",
@@ -49,7 +49,7 @@ const Projects = () => {
       technologies: ["E-commerce", "Logistics", "Transit", "B2C"],
       detailUrl: "/projects/transita",
       liveUrl: "https://webapp.leadway.com/TransitaApp",
-      githubUrl: "#"
+      githubUrl: "https://github.com/ayokunmi24/ayokunmi"
     },
     {
       title: "Hydra API Gateway",
@@ -58,7 +58,7 @@ const Projects = () => {
       technologies: ["SaaS", "Enterprise Software", "B2B", "Fintech"],
       detailUrl: "/projects/hydra-api",
       liveUrl: "https://www.hydra.ng",
-      githubUrl: "#"
+      githubUrl: "https://github.com/ayokunmi24/ayokunmi"
     },
     {
       title: "AI Chatbot & Virtual Reality (Luna)",
@@ -67,7 +67,7 @@ const Projects = () => {
       technologies: ["AI/ML", "Virtual Reality", "SaaS", "Enterprise Software"],
       detailUrl: "/projects/luna",
       liveUrl: "#",
-      githubUrl: "#"
+      githubUrl: "https://github.com/ayokunmi24/ayokunmi"
     },
     {
       title: "Leadway Health Management System",
@@ -76,7 +76,7 @@ const Projects = () => {
       technologies: ["Health", "Insurance", "Enterprise Software", "B2C"],
       detailUrl: "/projects/leadway-health",
       liveUrl: "https://leadwayhealth.com",
-      githubUrl: "#"
+      githubUrl: "https://github.com/ayokunmi24/ayokunmi"
     },
     {
       title: "Agency Banking Solution (Cluster)",
@@ -85,7 +85,7 @@ const Projects = () => {
       technologies: ["Agency Banking", "POS", "Fintech", "B2B"],
       detailUrl: "/projects/agency-banking",
       liveUrl: "https://web.cluster.africa/logout",
-      githubUrl: "#"
+      githubUrl: "https://github.com/ayokunmi24/ayokunmi"
     },
     {
       title: "Leadway SuperApp Design",
@@ -94,7 +94,7 @@ const Projects = () => {
       technologies: ["Insurance", "SaaS", "B2C", "Design"],
       detailUrl: "/projects/leadway-superapp",
       liveUrl: "https://www.figma.com/proto/dV1Xp63mI9T8yZFrKCkmVa/-LW----UI-Concept?page-id=2233%3A30818&node-id=2363-25126&starting-point-node-id=2363%3A25126",
-      githubUrl: "#"
+      githubUrl: "https://github.com/ayokunmi24/ayokunmi"
     },
     {
       title: "Ankara Insurance Portal",
@@ -103,7 +103,7 @@ const Projects = () => {
       technologies: ["Healthcare", "Insurance", "B2C", "Design"],
       detailUrl: "/projects/ankara-insurance",
       liveUrl: "#",
-      githubUrl: "#"
+      githubUrl: "https://github.com/ayokunmi24/ayokunmi"
     },
     {
       title: "Leadway Micro Investment Portal",
@@ -112,7 +112,7 @@ const Projects = () => {
       technologies: ["Finance", "Investment", "B2C", "Web Platform"],
       detailUrl: "/projects/leadway-investment",
       liveUrl: "#",
-      githubUrl: "#"
+      githubUrl: "https://github.com/ayokunmi24/ayokunmi"
     }
   ];
 

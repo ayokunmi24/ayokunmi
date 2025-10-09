@@ -84,7 +84,7 @@ const Hero = () => {
         {/* Social Links */}
         <div className="flex justify-center gap-4 mb-12">
           <a 
-            href="https://github.com" 
+            href="https://github.com/ayokunmi24/ayokunmi" 
             className="text-muted-foreground hover:text-foreground transition-colors"
             target="_blank"
             rel="noopener noreferrer"
