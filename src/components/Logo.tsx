@@ -19,7 +19,7 @@ const Logo = ({ className = "text-2xl font-bold" }: { className?: string }) => {
     <img 
       src={theme === "dark" ? logoWhite : logoBlack} 
       alt="AS Logo" 
-      className="w-[50px] h-[50px]"
+      className="h-8 w-auto"
     />
   );
 };
