@@ -4,7 +4,7 @@ import ayokunmiPhoto from "@/assets/ayokunmi-photo.jpg";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-4 pt-24 overflow-hidden bg-background">
+    <section className="relative min-h-screen flex items-center justify-center px-4 pt-32 overflow-hidden bg-background">
       {/* Floating Particles */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 left-1/4 w-1 h-1 bg-foreground/20 rounded-full animate-pulse" />
