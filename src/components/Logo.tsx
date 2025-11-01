@@ -1,8 +1,26 @@
+import { useTheme } from "next-themes";
+import { useEffect, useState } from "react";
+import logoWhite from "@/assets/logo-white.svg";
+import logoBlack from "@/assets/logo-black.svg";
+
 const Logo = ({ className = "text-2xl font-bold" }: { className?: string }) => {
+  const { theme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) {
+    return <div className="w-[50px] h-[50px]" />;
+  }
+
   return (
-    <div className="flex items-center justify-center w-10 h-10 bg-transparent text-white rounded-full border-[3px] border-white font-bold text-lg">
-      AS<span className="text-sm ml-0.5" style={{ verticalAlign: 'middle' }}>.</span>
-    </div>
+    <img 
+      src={theme === "dark" ? logoWhite : logoBlack} 
+      alt="AS Logo" 
+      className="w-[50px] h-[50px]"
+    />
   );
 };
 

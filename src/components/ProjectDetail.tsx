@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, ExternalLink } from "lucide-react";
 import { Link } from "react-router-dom";
+import ThemeToggle from "@/components/ThemeToggle";
 
 interface ProjectDetailProps {
   title: string;
@@ -55,6 +56,11 @@ const ProjectDetail = ({
               Back to Portfolio
             </Button>
           </Link>
+        </div>
+
+        {/* Theme Toggle - Top Right */}
+        <div className="absolute top-6 right-6">
+          <ThemeToggle />
         </div>
       </div>
 
