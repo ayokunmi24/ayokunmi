@@ -20,7 +20,7 @@ const Footer = () => {
           {/* Social Links */}
           <div className="flex items-center gap-4">
             <a 
-              href="https://github.com/ayokunmi24/ayokunmi" 
+              href="https://github.com/ayokunmi24" 
               className="p-2 rounded-full hover:bg-accent transition-smooth hover:scale-110 text-muted-foreground hover:text-primary"
               target="_blank"
               rel="noopener noreferrer"
