@@ -1,7 +1,7 @@
 import { ArrowLeft, Quote } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link, useNavigate } from "react-router-dom";
-import ayokunmiPhoto from "@/assets/ayokunmi-photo.jpg";
+import ayokunmiAbout from "@/assets/ayokunmi-about.jpg";
 
 const AboutMe = () => {
   const navigate = useNavigate();
@@ -39,7 +39,7 @@ const AboutMe = () => {
             <div className="order-2 lg:order-1">
               <div className="relative">
                 <img 
-                  src={ayokunmiPhoto} 
+                  src={ayokunmiAbout} 
                   alt="Ayokunmi Omole" 
                   className="w-full h-[600px] object-cover rounded-2xl shadow-elegant"
                 />
